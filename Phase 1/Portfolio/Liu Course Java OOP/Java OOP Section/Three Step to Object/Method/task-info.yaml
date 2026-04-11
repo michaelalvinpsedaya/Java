@@ -1,0 +1,44 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+    learner_created: false
+  - name: src/Person.java
+    visible: true
+    placeholders:
+      - offset: 286
+        length: 20
+        placeholder_text: /* 补充定义 echo() 方法 */
+        initial_state:
+          length: 20
+          offset: 286
+        initialized_from_dependency: false
+        encrypted_possible_answer: idfa/TYxmt8vNyr2ijImapl3OYN0Wh+Mx6SGK5EtcNw=
+        selected: false
+        status: Unchecked
+      - offset: 675
+        length: 21
+        placeholder_text: /* 补充调用 hello() 方法 */
+        initial_state:
+          length: 21
+          offset: 675
+        initialized_from_dependency: false
+        encrypted_possible_answer: JO2JcfjJLAKKe3Nza5zgaw==
+        selected: false
+        status: Unchecked
+      - offset: 705
+        length: 20
+        placeholder_text: /* 补充调用 echo() 方法 */
+        initial_state:
+          length: 20
+          offset: 705
+        initialized_from_dependency: false
+        encrypted_possible_answer: RLqsD9sDKP1J7RLxXd+K6N+Z7NrI2ZBlvbR0CgzmOJs=
+        selected: false
+        status: Unchecked
+    learner_created: false
+  - name: test/latest_output.txt
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1
